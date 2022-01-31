@@ -13,9 +13,17 @@
 
 ### Metrics
 - Top Five Performing Schools
+<img src="/Resources/m4_img3.png" width="50%" height="50%">
+
 - Bottom Five Performing Schools
+<img src="/Resources/m4_img4.png" width="50%" height="50%">
+
 - Average Math Scores by Grade & School
+<img src="/Resources/m4_img5.png" width="25%" height="25%">
+
 - Average Reading Scores by Grade & School
+<img src="/Resources/m4_img6.png" width="25%" height="25%">
+
 - School Spending Summary
 - School Size Summary
 - School Type Summary
