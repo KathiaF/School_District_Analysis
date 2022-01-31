@@ -25,6 +25,8 @@
 <img src="/Resources/m4_img6.png" width="25%" height="25%">
 
 - School Spending Summary
+<img src="/Resources/m4_img7.png" width="50%" height="50%">
+
 - School Size Summary
 - School Type Summary
 
