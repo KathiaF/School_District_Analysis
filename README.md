@@ -28,15 +28,18 @@ The purpose of this analysis is to help Maria analyze data on student funding an
     
     <img src="/Resources/c4_img2.png" width="50%" height="50%">
  
- - droped from 65.2% to 64.9%
+ - It can be seen that after replacing the 9th graders' scores with NaN, there were significant differences in the results, and it is observed that the percentage passing math dropped from 93.27% to 64.91%, the percentage passing reading dropped from 97.31% to 69.66% and the overall passing dropped from 90.95% to 65.08%
+
 
 ## Metrics
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
   - Module 4: Top Five Performing Schools
+  - Thomas High School (THS) was among the top 5 schools based on performance of all grades.
   <img src="/Resources/m4_img3.png" width="50%" height="50%">
   
   - Challenge 4: Top Five Performing Schools
+  - In the previous point (School Summary), it was noted that by removing excess 9th graders and continuing to count 9th graders in the student count, THS reduced the overall passing rate from 90.95% to 65.08%. However, when the student count was adjusted to exclude 9th graders THS was still among the top 5 performing schools.
   <img src="/Resources/c4_img3.png" width="50%" height="50%">
 
   - Module 4: Bottom Five Performing Schools
@@ -47,6 +50,7 @@ The purpose of this analysis is to help Maria analyze data on student funding an
 
 - How does replacing the ninth-grade scores affect the following:
   - Math and reading scores by grade
+    - As seen in the figures below, only the math and reading scores for 9th graders in THS were replaced with NaN. 
     - Module 4: Average Math Scores by Grade & School
     <img src="/Resources/m4_img5.png" width="25%" height="25%">
     
@@ -66,12 +70,16 @@ The purpose of this analysis is to help Maria analyze data on student funding an
   - Challenge 4: School Spending Summary
   <img src="/Resources/c4_img7.png" width="50%" height="50%">
 
+  - THS is in the $630-$644 range spending bin, it can be seen that removing 9th graders from the analysis is not significant and is not even visible when scores are formatted to the nearest tenths.
+  
 - Scores by school size
   - Module 4: School Size Summary
   <img src="/Resources/m4_img8.png" width="50%" height="50%">
   
   - Challenge 4: School Size Summary
   <img src="/Resources/c4_img8.png" width="50%" height="50%">
+  
+  - THS is medium sized school. it can be seen that removing 9th graders from the analysis become insignificant and is not even visible when scores are formatted to the nearest integer.
 
 - Scores by school type
   - Module 4: School Type Summary
@@ -79,5 +87,12 @@ The purpose of this analysis is to help Maria analyze data on student funding an
   
   - Challenge 4: School Type Summary
   <img src="/Resources/c4_img9.png" width="50%" height="50%">
+  
+  - THS is a Charter school. it can be seen that removing 9th graders from the analysis become insignificant and is not even visible when scores are formatted to the nearest integer.
 
 # Summary
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+1. The overall passing at THS dropped from 90.95% to 65.08%
+2. Thomas High School lost its ranking as a top five school within this District...
+3. ... but after removing 9th grade scores and the student count from the calculation, Thomas High School is still in the top five performing school.
+5. The results in scores by school spending, school size and school type do not change significantly when the scores of the 9th graders of the THS are removed and are insignificant due to rounding.
