@@ -77,7 +77,7 @@ The purpose of this analysis is to help Maria analyze data on student funding an
   <img src="/Resources/m4_img8.png" width="50%" height="50%">
   
   - Challenge 4: School Size Summary
-  <img src="/Resources/c4_img8.png" width="50%" height="50%">
+  <img src="/Resources/c4_img8ok.png" width="50%" height="50%">
   
   - THS is medium sized school. it can be seen that removing 9th graders from the analysis become insignificant and is not even visible when scores are formatted to the nearest integer.
 
